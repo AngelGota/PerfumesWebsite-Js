@@ -13,7 +13,7 @@
     --sidebar-color: #EBCECE;
     --primary-color: #AE2F2F;
     --primary-color-light: #ffffff;
-    --toggle-color: #DDD;
+    --toggle-color: #AE2F2F;
     --icon-color: #AE2F2F;
     --text-color: #000000;
 
@@ -295,6 +295,6 @@ body.dark .home .text{
 
 
 
-/*Fin de los estilos del sideMenu
+/*Fin de los estilos del sideMenu- inicios del body y modedark
 IMPORTANTE - NO DECLARAR ESTILOS DE OTRAS PÁGINAS AQUÍ
 */
