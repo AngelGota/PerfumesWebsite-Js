@@ -6,15 +6,13 @@
 
 body{
     background-color: rosybrown;
-    height:100%;
+    
+    
     
    
 }
 
-.principal{
-    height: auto;
-   
-}
+
 
 .navegacion{
     position:fixed;
@@ -58,8 +56,8 @@ body{
 }
 
 .caja{
-    width:250px;
-    height:320px;
+    width:350px;
+    height:400px;
     background-color: orange;
     
     
@@ -112,13 +110,20 @@ p{
 
 
 .redes{
-    margin-top: 20px;
-    margin-bottom: 20px;
+    
+    position:absolute;
     margin-left: 50px;
+    width:100%;
+    bottom:0;
+    border:5px solid blue;
+    
     display:grid;
     grid-template-columns: 4% 4% 4% auto ;
     grid-template-rows: auto;
     padding:5px;
+    background-color: floralwhite;
+    
+
 }
 
 .icon{
@@ -129,9 +134,7 @@ p{
     border:0px;
 }
 
- footer{
-     background-color:burlywood;
- }
+
 
  .autor{
      text-align: center;
