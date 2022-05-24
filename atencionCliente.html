@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Perfumed Shop</title>
+        <link rel="stylesheet" href="assets/css/sidemenu.css" />
+        <link rel="stylesheet" href="assets/css/atencionCliente.css">
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"/>
+        
+    </head>
+    <body>
+        <nav class="sidebar close">
+            <header>
+                <div class="image-text">
+                    <span class="image">
+                        <img src="media/logo-empresa.svg" alt="">
+                    </span>
+                    <div class="text logo-text">
+                        <span class="name">Perfume Shop</span>
+                    </div>
+                </div>
+                <i class="bx bx-chevron-right toggle"></i>
+            </header>
+            <div class="menu-bar">
+                <div class="menu">
+                    <ul class="menu-links">
+                        <li class="nav-link">
+                            <a href="index.html">
+                                <i class="bx bx-home-alt icon"></i>
+                                <span class="text nav-text">Home</span>
+                            </a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="login.html">
+                                <i class="bx bx-user icon"></i>
+                                <span class="text nav-text">Usuario</span>
+                            </a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="atencionCliente.html">
+                                <i class="bx bx-bell icon"></i>
+                                <span class="text nav-text">Atención al cliente</span>
+                            </a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="nosotros.html">
+                                <i class="bx bx-group icon"></i>
+                                <span class="text nav-text">Nosotros</span>
+                            </a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="https://www.fda.gov/cosmetics/cosmetics-labeling-claims/cruelty-freenot-tested-animals" target="_blank">
+                                <i class="bx bxl-baidu icon"></i>
+                                <span class="text nav-text">No tested on animals</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!--Mode's section NO TOCAR-->
+                <div class="bottom-content">
+                    <li class="mode">
+                        <div class="sun-moon">
+                            <i class="bx bx-moon icon moon"></i>
+                            <i class="bx bx-sun icon sun"></i>
+                        </div>
+                        <span class="mode-text text">Dark mode</span>
+                        <div class="toggle-switch">
+                            <span class="switch"></span>
+                        </div>
+                    </li>
+                </div>
+            </div>
+        </nav>
+        <!--SIDEMENU's END-->
+        
+        <section   class="forma-registro">
+            <h3>CONTACTO| PREGUNTAS|SUGERENCIAS</h3>
+            <br>
+            <br>
+            <h3>Apellidos</h3>
+            <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="ingrese su Apellido">
+            <h3>Nombres</h3>
+            <input class="controls" type="text" name="nombres " id="nombres" placeholder="ingrese su Nombre">
+            <h3>Correo</h3>
+            <input class="controls" type="email" name="correo" id="correo" placeholder="ingrese su Correo">
+            <h3>Contraseña</h3>
+            <input class="controls" type="password" name="" id="correo" placeholder="ingrese su Contraseña">
+            
+            <input class="botons" type="submit" value = "Resgistrar">
+            <p><a href="#">¿Ya tengo Cuenta?</a></p>
+            </section>
+    </body>
+</html>
+<script src="assets/js/sidemenu.js"></script> <!--No olvidar enlazar el script de funcionamiento para el colapso y el modo oscuro o claro-->
