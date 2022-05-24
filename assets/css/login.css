@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rosybrown;
+
+
+}
+
+#log {
+
+    padding-left: 5%;
+    display: flex;
+    align-items: center;
+    padding-left: 55%;
+    min-height: 100vh;
+}
+
+form {
+
+    display: flex;
+    border-radius: 20px;
+    flex-direction:column ;
+    background: #F17374;
+    text-align: center;
+    padding: 20px 25px;
+    box-shadow: 0 5px 10px rgb(71, 3, 6, 0, 7);
+
+}
+
+.login {
+    width: 200%;
+    
+
+}
+
+.logo1 {
+    
+    width: 90%;
+    border-radius: 50 50px #fff;
+}
+
+.title {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 30px;
+
+
+}
+
+form label {
+    margin-bottom: 35px;
+}
+
+form label .fa-solid {
+    font-size: 20px;
+    color: BLACK;
+    margin-right: 10px;
+}
+
+form label input {
+    outline: none;
+    border: none;
+    color: black;
+    border-bottom: solid 1px #744C4C;
+    padding: 0 5px;
+    font-size: 10px;
+
+}
+
+form .link {
+    color: black;
+    margin-bottom: 15px;
+}
+
+form button {
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(to right, black, black);
+    padding: 10px 15px;
+    cursor: pointer;
+
+}
+
+.redes {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: 4% 4% 4% auto;
+    grid-template-rows: auto;
+    padding: 5px;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    text-align: left;
+    padding: 5px;
+    border: 0px;
+}
+
+footer {
+    background-color: burlywood;
+    text-align: center;
+}
