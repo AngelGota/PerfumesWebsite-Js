@@ -106,10 +106,6 @@ p {
     text-align: justify;
 
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> d2468b7355eaae4ca6b9960d22a6183fc1743712
 
 
 
@@ -133,32 +129,15 @@ p {
     border: 0px;
 }
 
-<<<<<<< HEAD
 footer {
     background-color: burlywood;
 }
 
 .autor {
-=======
-footer{
-    background-color:burlywood;
-}
-
-.autor{
->>>>>>> d2468b7355eaae4ca6b9960d22a6183fc1743712
     text-align: center;
 }
 
 
-<<<<<<< HEAD
-.persona1,
-persona2,
-persona3,
-persona4 {
-    width: 100%;
-}
-=======
 .persona1, .persona2, .persona3, .persona4{
     width: 100%;
 }
->>>>>>> d2468b7355eaae4ca6b9960d22a6183fc1743712
