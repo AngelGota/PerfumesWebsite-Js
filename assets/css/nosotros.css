@@ -103,11 +103,6 @@ p{
     text-align: justify;
     
 }
-    
-     
-    
-    
-
 
 .redes{
     
@@ -145,9 +140,11 @@ p{
     width: 100%;
 }
 
- 
+.autor{
+    text-align: center;
+}
 
 
- 
-
- 
+.persona1, .persona2, .persona3, .persona4{
+    width: 100%;
+}
