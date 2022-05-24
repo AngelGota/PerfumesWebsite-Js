@@ -105,11 +105,6 @@ p{
     text-align: justify;
     
 }
-    
-     
-    
-    
-
 
 .redes{
     margin-top: 20px;
@@ -129,22 +124,15 @@ p{
     border:0px;
 }
 
- footer{
-     background-color:burlywood;
- }
-
- .autor{
-     text-align: center;
- }
-
-
-.persona1, persona2, persona3, persona4{
-    width: 100%;
+footer{
+    background-color:burlywood;
 }
 
- 
+.autor{
+    text-align: center;
+}
 
 
- 
-
- 
+.persona1, .persona2, .persona3, .persona4{
+    width: 100%;
+}
