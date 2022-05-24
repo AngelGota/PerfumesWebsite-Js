@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: rosybrown;
+    height: 100%;
+
+
+}
+
+.principal {
+    height: auto;
+
+}
+
+.navegacion {
+    position: fixed;
+    margin-top: 0px;
+    width: 50px;
+    height: 100%;
+    background-color: pink;
+
+}
+
+.navegacion ul {
+    list-style: none;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.navegacion ul li a {
+    display: inline-block;
+    color: red;
+    text-decoration: none;
+    font-size: 30px;
+
+
+    margin: 10px auto;
+
+}
+
+.imagen {
+    width: 30px;
+    height: auto;
+}
+
+.perfil {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+
+
+
+}
+
+.caja {
+    width: 250px;
+    height: 320px;
+    background-color: orange;
+
+
+    margin: 20px auto;
+
+    padding: 15px;
+
+
+
+
+}
+
+
+.main {
+    margin-left: 50px;
+    height: 100%;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+}
+
+.nosotros {
+
+    margin: 40px 40px;
+
+    text-align: center;
+    width: 60%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    grid-template-rows: 50% 50%;
+
+
+
+
+}
+
+p {
+    background-color: gray;
+    font-size: 12px;
+    margin: 5px;
+    text-align: justify;
+
+}
+
+
+
+
+
+.redes {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: 4% 4% 4% auto;
+    grid-template-rows: auto;
+    padding: 5px;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    text-align: left;
+    padding: 5px;
+    border: 0px;
+}
+
+footer {
+    background-color: burlywood;
+}
+
+.autor {
+    text-align: center;
+}
+
+
+.persona1,
+.persona2,
+.persona3,
+.persona4 {
+    width: 100%;
+}
