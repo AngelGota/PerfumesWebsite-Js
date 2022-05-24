@@ -1,19 +1,10 @@
 * {
     margin: 0;
     padding: 0;
-
 }
 
 body {
     background-color: rosybrown;
-    height: 100%;
-
-
-}
-
-.principal {
-    height: auto;
-
 }
 
 .navegacion {
@@ -22,14 +13,12 @@ body {
     width: 50px;
     height: 100%;
     background-color: pink;
-
 }
 
 .navegacion ul {
     list-style: none;
     text-align: center;
     margin-top: 10px;
-
 }
 
 .navegacion ul li a {
@@ -37,10 +26,7 @@ body {
     color: red;
     text-decoration: none;
     font-size: 30px;
-
-
     margin: 10px auto;
-
 }
 
 .imagen {
@@ -52,51 +38,32 @@ body {
     width: 200px;
     height: 200px;
     border: 1px solid black;
-
-
-
 }
 
 .caja {
-    width: 250px;
-    height: 320px;
+    width: 350px;
+    height: 400px;
     background-color: orange;
-
-
     margin: 20px auto;
-
     padding: 15px;
-
-
-
-
 }
-
 
 .main {
     margin-left: 50px;
     height: 100%;
     display: flex;
-
     align-items: center;
     justify-content: center;
-
 }
 
 .nosotros {
-
     margin: 40px 40px;
-
     text-align: center;
     width: 60%;
     display: grid;
     grid-template-columns: 50% 50%;
     justify-content: center;
     grid-template-rows: 50% 50%;
-
-
-
-
 }
 
 p {
@@ -104,21 +71,19 @@ p {
     font-size: 12px;
     margin: 5px;
     text-align: justify;
-
 }
 
-
-
-
-
 .redes {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    position: absolute;
     margin-left: 50px;
+    width: 100%;
+    bottom: 0;
+    border: 5px solid blue;
     display: grid;
     grid-template-columns: 4% 4% 4% auto;
     grid-template-rows: auto;
     padding: 5px;
+    background-color: floralwhite;
 }
 
 .icon {
@@ -129,18 +94,6 @@ p {
     border: 0px;
 }
 
-footer {
-    background-color: burlywood;
-}
-
 .autor {
     text-align: center;
-}
-
-
-.persona1,
-.persona2,
-.persona3,
-.persona4 {
-    width: 100%;
 }
