@@ -1,16 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Perfumed Shop</title>
-        <link rel="stylesheet" href="assets/css/sidemenu.css" />
-        <link rel="stylesheet" href="assets/css/indexsContent.css">
-        <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"/>
-        
-    </head>
-    <body>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navegacion</title>
+    <link rel="stylesheet" href="assets/css/sidemenu.css">
+
+    <link rel="stylesheet" href="assets/css/login.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <div class="principal">
         <nav class="sidebar close">
             <header>
                 <div class="image-text">
@@ -27,31 +35,32 @@
                 <div class="menu">
                     <ul class="menu-links">
                         <li class="nav-link">
-                            <a href="#">
+                            <a href="index.html">
                                 <i class="bx bx-home-alt icon"></i>
                                 <span class="text nav-text">Home</span>
                             </a>
                         </li>
                         <li class="nav-link">
-                            <a href="#">
+                            <a href="login.html">
                                 <i class="bx bx-user icon"></i>
                                 <span class="text nav-text">Usuario</span>
                             </a>
                         </li>
                         <li class="nav-link">
-                            <a href="#">
+                            <a href="atencionCliente.html">
                                 <i class="bx bx-bell icon"></i>
                                 <span class="text nav-text">Atención al cliente</span>
                             </a>
                         </li>
                         <li class="nav-link">
-                            <a href="#">
+                            <a href="nosotros.html">
                                 <i class="bx bx-group icon"></i>
                                 <span class="text nav-text">Nosotros</span>
                             </a>
                         </li>
                         <li class="nav-link">
-                            <a href="#">
+                            <a href="https://www.fda.gov/cosmetics/cosmetics-labeling-claims/cruelty-freenot-tested-animals"
+                                target="_blank">
                                 <i class="bx bxl-baidu icon"></i>
                                 <span class="text nav-text">No tested on animals</span>
                             </a>
@@ -73,10 +82,69 @@
                 </div>
             </div>
         </nav>
-        <!--SIDEMENU's END-->
-        <section class="home">
-            <div class="text">Dashboard Sidebar</div>
-        </section>
-    </body>
+        <!-- ↑↑↑↑↑↑ FINAL DE BARRA DE NAVEGACION ↑↑↑↑↑↑ -->
+
+        <!-- ↓↓↓↓↓↓ COMIENZO DEL CONTENIDO ↓↓↓↓↓↓ -->
+        <div id="log">
+            <form action="item">
+                <div id="primero">
+                    <span class="celular">
+                        <img src="media/login-image.svg" alt="">
+
+                    </span>
+                </div>
+                <div  id="segundo">
+                    <span class="empresa">
+                        <img src="media/logo-empresa.svg" alt="">
+                    </span>
+            
+                    <h1 class="title"> Bienvenido</h1>
+                    <label for="ud">
+                        <i class="fa-solid fa-user"></i>
+                        <input placeholder="usuario" type="text" id="username">
+                    </label>
+                    <label for="ud">
+                        <i class="fa-solid fa-lock"></i>
+                        <input placeholder="contraseña" type="password" id="password">
+                    </label>
+                    <a href="#" class="link"> ¿olvidaste tu contraseña?</a>
+                    <button id="button"> Ingresar</button>
+                    <div id="imaglogin" > <link rel="stylesheet" href="media/login-image.svg"></div>
+                </div>
+            </form>
+        </div>
+        
+    </div>
+    <!-- ↑↑↑↑↑↑ FINAL DEL CONTENIDO ↑↑↑↑↑↑ -->
+
+    <!-- ↓↓↓↓↓↓ COMIENZO DEL FOOTER ↓↓↓↓↓↓ -->
+    <footer>
+        <div class="conteiner-footer">
+            <div class="conteiner-items">
+                    <div class="social">
+                        <img src="media/facebook.svg" alt="" />
+                    </div>
+                    <div class="social">
+                        <img src="media/instagram.svg" alt="" />
+                    </div>
+                    <div class="social">
+                        <img src="media/twitter.svg" alt="" />
+                    </div>
+                <div class="creditos">
+                    <h3 class="texto-footer">
+                        PerfumeShop
+                    </h3>    
+                    <h3 class="texto-footer">
+                        © Copyright reserved PerfumeShop 2022
+                    </h3>    
+                    <h3 class="texto-footer">
+                        Designed by Angelo | Dennis | Rosario | Victor
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ↑↑↑↑↑↑ FINAL DEL FOOTER ↑↑↑↑↑↑ -->
+</body>
 </html>
-<script src="assets/js/sidemenu.js"></script> <!--No olvidar enlazar el script de funcionamiento para el colapso y el modo oscuro o claro-->
+<script src="assets/js/sidemenu.js"> </script>

@@ -38,3 +38,40 @@ font-family:'calibri';
     font-size: 18px;
 
 }
+
+/*---------------------------
+			Content footer 
+-----------------------------*/
+
+.conteiner-footer{
+	background-color: #DDB4B4;
+    padding: 0px 88px 0px 88px;
+}
+
+.conteiner-items{
+	align-items: center;
+	text-align: center;
+    display:grid;
+    grid-template-columns: 4% 4% 4% auto ;
+    grid-template-rows: auto;
+}
+
+.conteiner-redes{
+    display: flex;
+}
+
+.social{
+    width: 100px;
+    height: 100px;
+    display: flex;
+	padding: 20px;
+}
+
+.creditos{
+    text-align: center;
+	padding-right: 10%;
+}
+.texto-footer{
+	font-family: 'Alike', serif;
+	font-size: 25px;
+}
