@@ -14,35 +14,135 @@ body {
 #log {
 
     padding-left: 5%;
-    display: flex;
+
     align-items: center;
     padding-left: 55%;
     min-height: 100vh;
 }
 
 form {
+    background: #F17374;
+    display: flex;
+    border-radius: 20px;
+
+    margin-top: 10%;
+}
+
+.item {
+
+    border-radius: 20px;
+    display: flex;
+    margin-top: 10%;
+    min-height: left;
+    overflow: hidden;
+
+}
+
+.celular {
+    width: 800px;
+    display: flex;
+
+}
+
+.empresa {
+    width: 150px;
+
+
+
+}
+
+#primero {
+    padding-left: 5%;
+
+    min-height: left;
+    margin-right: 50%;
+    border-radius: 20px;
+    padding: 20px 25px;
+
+
+
+
+}
+
+#segundo {
 
     display: flex;
     border-radius: 20px;
-    flex-direction:column ;
-    background: #F17374;
+    flex-direction: column;
     text-align: center;
     padding: 20px 25px;
     box-shadow: 0 5px 10px rgb(71, 3, 6, 0, 7);
-
 }
 
-.login {
-    width: 200%;
-    
+    #log {
 
-}
+        padding-left: 5%;
+        align-items: center;
+        padding-left: 55%;
+        min-height: 100vh;
+    }
 
-.logo1 {
-    
-    width: 90%;
-    border-radius: 50 50px #fff;
-}
+    form {
+        background: #F17374;
+        display: flex;
+        border-radius: 20px;
+
+        margin-top: 10%;
+    }
+
+    .item {
+
+        border-radius: 20px;
+        display: flex;
+        margin-top: 10%;
+        min-height: left;
+        overflow: hidden;
+
+    }
+
+    .celular {
+        width: 800px;
+        display: flex;
+
+    }
+
+    .empresa {
+        width: 150px;
+
+
+
+    }
+
+    #primero {
+        padding-left: 5%;
+
+        min-height: left;
+        margin-right: 50%;
+        border-radius: 20px;
+        padding: 20px 25px;
+
+
+
+
+    }
+
+    #segundo {
+
+        display: flex;
+        border-radius: 20px;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px 25px;
+        box-shadow: 0 5px 10px rgb(71, 3, 6, 0, 7);
+        background: #F17374;
+
+    }
+
+
+
+
+
+
 
 .title {
     color: #fff;
@@ -92,35 +192,36 @@ form button {
 			Content footer 
 -----------------------------*/
 
-.conteiner-footer{
-	background-color: #DDB4B4;
+.conteiner-footer {
+    background-color: #DDB4B4;
     padding: 0px 88px 0px 88px;
 }
 
-.conteiner-items{
-	align-items: center;
-	text-align: center;
-    display:grid;
-    grid-template-columns: 4% 4% 4% auto ;
+.conteiner-items {
+    align-items: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 4% 4% 4% auto;
     grid-template-rows: auto;
 }
 
-.conteiner-redes{
+.conteiner-redes {
     display: flex;
 }
 
-.social{
+.social {
     width: 100px;
     height: 100px;
     display: flex;
-	padding: 20px;
+    padding: 20px;
 }
 
-.creditos{
+.creditos {
     text-align: center;
-	padding-right: 10%;
+    padding-right: 10%;
 }
-.texto-footer{
-	font-family: 'Alike', serif;
-	font-size: 25px;
+
+.texto-footer {
+    font-family: 'Alike', serif;
+    font-size: 25px;
 }
