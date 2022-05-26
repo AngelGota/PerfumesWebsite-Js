@@ -8,177 +8,105 @@
 body {
     background-color: rosybrown;
 
-
 }
-
-#log {
-
-    padding-left: 5%;
-
-    align-items: center;
-    padding-left: 55%;
+#log{
     min-height: 100vh;
+    padding-left: 8%;
+    padding-right: 5%;
+    min-height: 100vh;
+    padding-left: 10%;
 }
 
-form {
+#cuadro {
+    display: flex;
+    padding-left:5%;
+    padding-right: 50%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     background: #F17374;
-    display: flex;
-    border-radius: 20px;
-
     margin-top: 10%;
-}
-
-.item {
-
-    border-radius: 20px;
-    display: flex;
+    border-radius: 50px;
     margin-top: 10%;
-    min-height: left;
-    overflow: hidden;
+    align-items: center;
 
 }
 
-.celular {
-    width: 800px;
-    display: flex;
-
+#primero{
+    
+    float:none;
+    display:flex;
+}
+#segundo{
+    float: right;
+    
 }
 
-.empresa {
-    width: 150px;
-
-
-
+.celular{
+    width: 600px;
+    
+    
 }
 
-#primero {
-    padding-left: 5%;
-
-    min-height: left;
-    margin-right: 50%;
-    border-radius: 20px;
-    padding: 20px 25px;
-
-
-
-
+.empresa{
+    width: 200px;
+    
 }
-
-#segundo {
-
-    display: flex;
-    border-radius: 20px;
-    flex-direction: column;
-    text-align: center;
-    padding: 20px 25px;
-    box-shadow: 0 5px 10px rgb(71, 3, 6, 0, 7);
-}
-
-    #log {
-
-        padding-left: 5%;
-        align-items: center;
-        padding-left: 55%;
-        min-height: 100vh;
-    }
-
-    form {
-        background: #F17374;
-        display: flex;
-        border-radius: 20px;
-
-        margin-top: 10%;
-    }
-
-    .item {
-
-        border-radius: 20px;
-        display: flex;
-        margin-top: 10%;
-        min-height: left;
-        overflow: hidden;
-
-    }
-
-    .celular {
-        width: 800px;
-        display: flex;
-
-    }
-
-    .empresa {
-        width: 150px;
-
-
-
-    }
-
-    #primero {
-        padding-left: 5%;
-
-        min-height: left;
-        margin-right: 50%;
-        border-radius: 20px;
-        padding: 20px 25px;
-
-
-
-
-    }
-
-    #segundo {
-
-        display: flex;
-        border-radius: 20px;
-        flex-direction: column;
-        text-align: center;
-        padding: 20px 25px;
-        box-shadow: 0 5px 10px rgb(71, 3, 6, 0, 7);
-        background: #F17374;
-
-    }
-
-
-
-
-
-
 
 .title {
     color: #fff;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 800;
     margin-bottom: 30px;
 
+}
+form{
+    padding-left:200px; 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2px 2px;
+    box-shadow: 0 5px 10px rgb(71, 3, 6, 0, 7);  
+    margin-left: 100px;
+    
 
 }
+
 
 form label {
     margin-bottom: 35px;
 }
 
 form label .fa-solid {
-    font-size: 20px;
+    font-size: 30px;
     color: BLACK;
     margin-right: 10px;
 }
 
 form label input {
     outline: none;
-    border: none;
+    border-radius: 20px;
     color: black;
-    border-bottom: solid 1px #744C4C;
-    padding: 0 5px;
-    font-size: 10px;
+    background-color: #744C4C;
+    text-align: center ;
+    
+    padding: 0 2px;
+    font-size: 12px;
 
 }
+
+
+
 
 form .link {
     color: black;
-    margin-bottom: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
 }
 
 form button {
+    
+    width: 200px;
     color: #fff;
     border: none;
     border-radius: 20px;
