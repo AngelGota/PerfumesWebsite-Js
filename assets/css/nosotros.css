@@ -3,6 +3,20 @@
     padding: 0;
 }
 
+:root {
+    /* ===== Colors ===== */
+    --body-color: #cfa5a5;
+    --conteiner-text: #874141;
+    --conteiner-img: #AE2F2F;
+    --conteiner-box: #F17474;
+
+    /* ====== Transition ====== */
+    --tran-02: all 0.2s ease;
+    --tran-03: all 0.3s ease;
+    --tran-04: all 0.4s ease;
+    --tran-05: all 0.5s ease;
+}
+
 .principal {
     background-color: rosybrown;
 }
