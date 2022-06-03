@@ -6,13 +6,9 @@
 :root {
     /* ===== Colors ===== */
     --body-color: #cfa5a5;
-    --sidebar-color: #ebcece;
-    --primary-color: #ae2f2f;
-    --primary-color-light: #ffffff;
-    --toggle-color: #ae2f2f;
-    --icon-color: #ae2f2f;
-    --text-color: #ae2f2f;
-    --footer-color: #ddb4b4;
+    --conteiner-text: #874141;
+    --conteiner-img: #AE2F2F;
+    --conteiner-box: #F17474;
 
     /* ====== Transition ====== */
     --tran-02: all 0.2s ease;
