@@ -3,13 +3,21 @@
     padding:0;
     box-sizing:border-box ;
 }
+h1{
+    text-align: center;
+    margin-bottom: -80px;
+    text-transform: uppercase;
+    color:#AE2F2F ;
+    
+}
 .forma-registro{
 width: 400px;
 background:#F17374;
 padding: 30px;
 margin: auto;
 margin-top:100px;
-border-radius: 10px;
+margin-bottom: 100px;
+border-radius: 30px;
 font-family: 'calibri';
 color: white;
 }
@@ -17,12 +25,24 @@ color: white;
 width: 100%;
 background:#AE2F2F ;
 border: none;
+border-radius: 15px;
+margin-bottom: 45px;
 padding: 12px;
 color: white;
 font-family:'calibri';
     font-size: 18px;
 }
-
+.messaje{
+    width: 100%;
+    border-radius: 10px;
+    padding: 80px;
+    color:white;
+    font-family: 'calibri';
+    font-size: 18px;
+    margin-bottom: 16px;
+    
+}
+  
 .forma-registro h3{
     font-size:15px;
     margin-bottom:20px;
