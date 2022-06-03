@@ -5,7 +5,7 @@
 }
 .forma-registro{
 width: 400px;
-background:#EC7063;
+background:#F17374;
 padding: 30px;
 margin: auto;
 margin-top:100px;
@@ -29,7 +29,7 @@ font-family:'calibri';
 }
 .controls{
     width:100%;
-    background: #AE2F2F ;
+    background: white;
     padding :10px;
     border-radius: 10px;
     margin-bottom: 16px;
