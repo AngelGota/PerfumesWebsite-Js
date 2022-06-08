@@ -1,9 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Alike&display=swap");
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Alike", serif;
+    font-family: 'Alegreya Sans SC', sans-serif;
 }
 
 :root {
@@ -35,12 +34,12 @@ body {
 }
 
 body.dark {
-    --body-color-dark: #18191a;
-    --sidebar-color-dark: #262424;
-    --primary-color-dark: #3c3a3a;
-    --toggle-color-dark: #fff;
-    --text-color-dark: #fff;
-    --footer-color-dark: #161515;
+    --body-color: #18191a;
+    --sidebar-color: #262424;
+    --primary-color: #3c3a3a;
+    --toggle-color: #fff;
+    --text-color: #fff;
+    --footer-color: #161515;
 }
 
 /*---------------------------
@@ -81,7 +80,7 @@ body.dark .home .parrafo-header {
             rgba(5, 7, 12, 0.75),
             rgba(5, 7, 12, 0.75)
         ),
-        url(/media/background.jpg);
+        url(https://i.postimg.cc/NjKhsSND/background.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -91,7 +90,7 @@ body.dark .home .parrafo-header {
     padding: 0px 15% 0px 20%;
     font-size: 32px;
     font-weight: 200px;
-    font-family: "Alike", serif;
+    font-family: 'Alegreya Sans SC', sans-serif;
     display: flex;
     justify-content: center;
     color: var(--text-color);
@@ -101,7 +100,7 @@ body.dark .home .parrafo-header {
     padding-top: 60px;
     font-size: 96px;
     font-weight: 400;
-    font-family: "Alike", serif;
+    font-family: 'Alegreya Sans SC', sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -123,12 +122,12 @@ body.dark .home .parrafo-header {
 }
 
 body.dark .boton-default:hover {
-	background-color: var(--primary-color-dark);
+	background-color: var(--primary-color);
 	color: #fff;
 }
 
 body.dark .boton {
-	color: #AE2F2F;
+	color: var(--text-color);
 	border: 4px solid #3c3a3a;
 }
 
@@ -192,15 +191,15 @@ body.dark .boton {
 }
 
 .texto-footer-empresa {
-    font-family: "Alike", serif;
+    font-family: 'Alegreya Sans SC', sans-serif;
     font-size: 25px;
 }
 .texto-footer {
-    font-family: "Alike", serif;
+    font-family: 'Alegreya Sans SC', sans-serif;
     font-size: 25px;
 }
 
 body.dark .home .conteiner-footer {
-    background-color: var(--footer-color-dark);
-    color: var(--text-color-dark);
+    background-color: var(--footer-color);
+    color: var(--text-color);
 }

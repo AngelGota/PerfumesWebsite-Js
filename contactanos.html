@@ -4,13 +4,13 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Perfumed Shop</title>
+        <title>Perfumed Shop | Contáctanos</title>
         <link rel="stylesheet" href="assets/css/sidemenu.css" />
-        <link rel="stylesheet" href="assets/css/atencionCliente.css">
+        <link rel="stylesheet" href="assets/css/contactanos.css">
         <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"/>
         
     </head>
-    <body>
+    <body class="main">
         <nav class="sidebar close">
             <header>
                 <div class="image-text">
@@ -39,9 +39,9 @@
                             </a>
                         </li>
                         <li class="nav-link">
-                            <a href="atencionCliente.html">
+                            <a href="contactanos.html">
                                 <i class="bx bx-bell icon"></i>
-                                <span class="text nav-text">Atención al cliente</span>
+                                <span class="text nav-text">Contáctanos</span>
                             </a>
                         </li>
                         <li class="nav-link">
@@ -74,55 +74,53 @@
             </div>
         </nav>
         <!-- ↑↑↑↑↑↑ FINAL DE BARRA DE NAVEGACION ↑↑↑↑↑↑ -->
-
         <!-- ↓↓↓↓↓↓ COMIENZO DEL CONTENIDO ↓↓↓↓↓↓ -->    
-        <h1>CONTACTANOS</h1>    
-        <section   class="forma-registro">
-            <h3>CONTACTO| PREGUNTAS|SUGERENCIAS</h3>
-            <br>
-            <br>
-            
-            <h3>Nombres</h3>
-            <input class="controls" type="text" name="nombres " id="nombres" placeholder="">
-            <h3>Email</h3>
-            <input class="controls" type="email" name="email" id="email" placeholder="">
-            <h3>Mensaje</h3>
-            <input class="messaje" type="text" name="Mensaje" id="mensaje" placeholder="">
+        <div class="titulo">
+            <h1>CONTACTANOS</h1>
+        </div>
+        <section class="forma-registro">
+            <h2 class="contac">CONTACTO | PREGUNTAS | SUGERENCIAS</h2>
+            <h3>Nombre:</h3>
+            <input class="controls" type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre">
+            <h3>Apellido:</h3>
+            <input class="controls" type="text" name="apellido" id="apellido" placeholder="Ingrese su apellido">
+            <h3>Teléfono:</h3>
+            <input class="controls" type="text" name="telefono" id="telefono" placeholder="Ingrese su teléfono">
+            <h3>Email:</h3>
+            <input class="controls" type="email" name="email" id="email" placeholder="Ingrese su correo electrónico">
+            <h3>Mensaje:</h3>
+            <textarea class="textarea" name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Ingrese su consulta aquí"></textarea>
             <input class="botons" type="submit" value = "Enviar">
-            
-            </section>
-            
-    </body>
+        </section>
         <!-- ↑↑↑↑↑↑ FINAL DEL CONTENIDO ↑↑↑↑↑↑ -->
-
         <!-- ↓↓↓↓↓↓ COMIENZO DEL FOOTER ↓↓↓↓↓↓ -->
-    <footer>
-        <div class="conteiner-footer">
-            <div class="conteiner-items">
-                    <div class="social">
-                        <img src="media/facebook.svg" alt="" />
+        <footer>
+            <div class="conteiner-footer">
+                <div class="conteiner-items">
+                        <div class="social">
+                            <img src="media/facebook.svg" alt="" />
+                        </div>
+                        <div class="social">
+                            <img src="media/instagram.svg" alt="" />
+                        </div>
+                        <div class="social">
+                            <img src="media/twitter.svg" alt="" />
+                        </div>
+                    <div class="creditos">
+                        <h3 class="texto-footer">
+                            PerfumeShop
+                        </h3>    
+                        <h3 class="texto-footer">
+                            © Copyright reserved PerfumeShop 2022
+                        </h3>    
+                        <h3 class="texto-footer">
+                            Designed by Angelo | Dennis | Rosario | Victor
+                        </h3>
                     </div>
-                    <div class="social">
-                        <img src="media/instagram.svg" alt="" />
-                    </div>
-                    <div class="social">
-                        <img src="media/twitter.svg" alt="" />
-                    </div>
-                <div class="creditos">
-                    <h3 class="texto-footer">
-                        PerfumeShop
-                    </h3>    
-                    <h3 class="texto-footer">
-                        © Copyright reserved PerfumeShop 2022
-                    </h3>    
-                    <h3 class="texto-footer">
-                        Designed by Angelo | Dennis | Rosario | Victor
-                    </h3>
                 </div>
             </div>
-        </div>
-    </footer>
-    <!-- ↑↑↑↑↑↑ FINAL DEL FOOTER ↑↑↑↑↑↑ -->
+        </footer>
+        <!-- ↑↑↑↑↑↑ FINAL DEL FOOTER ↑↑↑↑↑↑ -->
 </body>
 </html>
 <script src="assets/js/sidemenu.js"></script> <!--No olvidar enlazar el script de funcionamiento para el colapso y el modo oscuro o claro-->
