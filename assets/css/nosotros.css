@@ -135,6 +135,7 @@ p {
     height: 100px;
     display: flex;
     padding: 20px;
+    cursor: pointer;
 }
 
 .creditos {
