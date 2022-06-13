@@ -21,6 +21,7 @@ document.querySelector('input[name="txtmensaje"]').addEventListener("keypress",f
         return;
     }
 });
+
 function registrar(frm){
     
     test=/^\s*$/;
@@ -35,7 +36,12 @@ function registrar(frm){
         alert("Ingrese su apellido");
         return;
 }
-test=/^[0-9][0-9]{6,8}$/;
+    if(test.test(frm.txtmensaje.value)){
+        window.event.preventDefault();
+        alert("Ingrese su mensaje");
+        return;
+}
+test=/^[2-9][0-9]{6,8}$/;
 if(!test.test(frm.txttelefono.value)){
     window.event.preventDefault();
     alert("Telefono entre 7 a 9 digitos");
