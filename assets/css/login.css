@@ -11,7 +11,7 @@
     --box-color: #B43535;
     --input-color: #C54646;
     --fondo-empresa: #403E3E;
-    --text-colors: #000;
+    --text-colors: rgb(0, 0, 0);
     --button-color: #F17474;
     --button-hover: #F84E4E;
     --caja-datos: rgb(255, 0, 0);
@@ -170,6 +170,7 @@ form button:hover {
     background-color: var(--footer-color);
     padding: 0px 88px 0px 88px;
     transition: var(--tran-05);
+    color: var(--text-colors);
 }
 
 .conteiner-items {
@@ -211,5 +212,5 @@ form button:hover {
 
 body.dark .home .conteiner-footer {
     background-color: var(--footer-color);
-    color: var(--text-color);
+    color: var(--text-colors);
 }

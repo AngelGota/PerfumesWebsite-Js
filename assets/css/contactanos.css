@@ -10,7 +10,7 @@
     --input-color: #C54646;
     --button-hover: #F84E4E;
     --button-color: #F17474;
-    --text-colors: rgb(20, 20, 20);
+    --text-colors: rgb(0, 0, 0);
     --color-title: #B43535;    
     --footer-color: #ddb4b4;
     --color-line: #FF0000;
@@ -135,6 +135,7 @@ body.dark {
     background-color: var(--footer-color);
     padding: 0px 88px 0px 88px;
     transition: var(--tran-05);
+    color: var(--text-colors);
 }
 
 .conteiner-items {

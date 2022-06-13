@@ -115,6 +115,7 @@ p {
     background-color: var(--footer-color);
     padding: 0px 88px 0px 88px;
     transition: var(--tran-05);
+    color: var(--text-colors);
 }
 
 .conteiner-items {
@@ -156,6 +157,6 @@ p {
 
 body.dark .home .conteiner-footer {
     background-color: var(--footer-color);
-    color: var(--text-color);
+    color: var(--text-colors);
 }
 
