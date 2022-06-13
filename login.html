@@ -88,30 +88,32 @@
                     </span>
                 </div>
                 <div  class="segundo">
-                    <form action="item">
+                    <form action="item" id="frmlogueo" onsubmit="cargar(this)" method="post">
                         <div class="empresa">
                             <span>
                                 <img src="media/logo-empresa.svg" alt="">
                             </span>
                         </div>
                     <h1 class="title">Bienvenido</h1>
-                    <div class="contenedor-login">
-                        <div class="datos-button">
-                            <label for="ud">
-                                <h2>Usuario:</h2>
-                                <input class="caja-datos" placeholder="Ingrese su usuario" type="text" id="username">
-                            </label>
+      
+                        <div class="contenedor-login">
+                            <div class="datos-button">
+                                <label for="ud">
+                                    <h2>Usuario:</h2>
+                                    <input class="caja-datos" name="txtusuario" placeholder="Ingrese su usuario" type="text" id="username">
+                                </label>
+                            </div>
+                            <div class="datos-button">
+                                <label for="ud">
+                                    <h2>Contraseña:</h2>
+                                    <input class="caja-datos" name="txtclave" placeholder="Ingrese su contraseña" type="password" id="password">
+                                </label>
+                            </div>
+                            <div class="submit-button">
+                                <button id="button">Ingresar</button>
+                            </div>            
                         </div>
-                        <div class="datos-button">
-                            <label for="ud">
-                                <h2>Contraseña:</h2>
-                                <input class="caja-datos" placeholder="Ingrese su contraseña" type="password" id="password">
-                            </label>
-                        </div>
-                        <div class="submit-button">
-                            <button id="button">Ingresar</button>
-                        </div>
-                    </div>
+                    
                     </form>
                 </div>
             </div>
@@ -153,4 +155,5 @@
 </body>
 </html>
 <script src="assets/js/sidemenu.js"> </script>
+<script src="assets/js/login.js"></script> 
 <script src="assets/js/nosotros.js"> </script>
