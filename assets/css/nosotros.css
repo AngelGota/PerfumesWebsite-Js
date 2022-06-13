@@ -49,6 +49,7 @@ body.dark {
     transition: var(--tran-05);
     border-radius: 10px;
     margin: 10px 0px;
+    cursor: pointer;
 }
 
 .caja {
