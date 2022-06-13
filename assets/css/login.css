@@ -14,7 +14,9 @@
     --text-colors: #000;
     --button-color: #F17474;
     --button-hover: #F84E4E;
+    --caja-datos: rgb(255, 0, 0);
     --footer-color: #ddb4b4;
+    --color-line: #FF0000;
 
     /* ====== Transition ====== */
     --tran-02: all 0.2s ease;
@@ -41,7 +43,9 @@ body.dark {
     --input-color: #524a4a;
     --button-color: #534e4e;
     --button-hover: #222020;
+    --caja-datos: #000;
     --footer-color: #161515;
+    --color-line: #e07878;
 }
 
 .main{
@@ -150,7 +154,7 @@ form button:hover {
     height: 40px;
     padding: 20px 10px;
     font-size: 20px;
-    color: var(--text-colors);
+    color: var(--caja-datos);
     background-color: var(--input-color);
     transition: var(--tran-05);
     font-size: 20px;
@@ -164,9 +168,8 @@ form button:hover {
 
 .conteiner-footer {
     background-color: var(--footer-color);
-    color: var(--text-colors);
-    transition: var(--tran-05);
     padding: 0px 88px 0px 88px;
+    transition: var(--tran-05);
 }
 
 .conteiner-items {
@@ -193,7 +196,20 @@ form button:hover {
     padding-right: 10%;
 }
 
+.texto-footer-empresa {
+    display: grid;
+    margin-left: 43%;
+    width: 15%;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 25px;
+    border-bottom: var(--color-line) solid 2px;
+}
 .texto-footer {
     font-family: 'Alegreya Sans SC', sans-serif;
     font-size: 25px;
+}
+
+body.dark .home .conteiner-footer {
+    background-color: var(--footer-color);
+    color: var(--text-color);
 }

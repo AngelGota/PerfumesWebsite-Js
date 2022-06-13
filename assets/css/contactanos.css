@@ -13,6 +13,7 @@
     --text-colors: rgb(20, 20, 20);
     --color-title: #B43535;    
     --footer-color: #ddb4b4;
+    --color-line: #FF0000;
 
     /* ====== Transition ====== */
     --tran-02: all 0.2s ease;
@@ -40,6 +41,7 @@ body.dark {
     --button-color: #534e4e;
     --button-hover: #222020;
     --footer-color: #161515;
+    --color-line: #e07878;
 }
 
 .main{
@@ -129,37 +131,50 @@ body.dark {
             Content footer 
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓*/
 
-.conteiner-footer{
-	background-color: var(--footer-color);
-    color: var(--text-colors);
-    transition: var(--tran-05);
+.conteiner-footer {
+    background-color: var(--footer-color);
     padding: 0px 88px 0px 88px;
+    transition: var(--tran-05);
 }
 
-.conteiner-items{
-	align-items: center;
-	text-align: center;
-    display:grid;
-    grid-template-columns: 4% 4% 4% auto ;
+.conteiner-items {
+    align-items: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 4% 4% 4% auto;
     grid-template-rows: auto;
 }
 
-.conteiner-redes{
+.conteiner-redes {
     display: flex;
 }
 
-.social{
+.social {
     width: 100px;
     height: 100px;
     display: flex;
-	padding: 20px;
+    padding: 20px;
 }
 
-.creditos{
+.creditos {
     text-align: center;
-	padding-right: 10%;
+    padding-right: 10%;
 }
-.texto-footer{
+
+.texto-footer-empresa {
+    display: grid;
+    margin-left: 43%;
+    width: 15%;
     font-family: 'Alegreya Sans SC', sans-serif;
-	font-size: 25px;
+    font-size: 25px;
+    border-bottom: var(--color-line) solid 2px;
+}
+.texto-footer {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 25px;
+}
+
+body.dark .home .conteiner-footer {
+    background-color: var(--footer-color);
+    color: var(--text-color);
 }
