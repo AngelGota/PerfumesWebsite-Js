@@ -37,3 +37,7 @@ btnRight.addEventListener('click', function(){
 btnLeft.addEventListener('click', function(){
     movLeft();
 });
+
+setInterval(function(){
+    movRight();
+}, 3000);
